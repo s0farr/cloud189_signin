@@ -1,4 +1,4 @@
-name: cloundqiandao
+name: clound189_signin
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: 29 1,15 * * *
+    - cron: 10 1,14 * * *
     
 jobs:
   check-in:
